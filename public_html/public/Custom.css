@@ -1,0 +1,41 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+
+#menu ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    width: 100%;
+    background-color:#EDEDED;
+    list-style:none;
+    font:80% Tahoma;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+    padding: 5px 155px;
+    float:left;
+}
+
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: green;
+    border-bottom:3px solid green;
+}
+#img img{
+    width: 150px;
+}
+.row input{
+    width: 230px;
+    height: 25px;
+}
+#linha{
+    margin: 0 auto;
+}

@@ -36,3 +36,26 @@ body {
 #linha{
     margin: 0 auto;
 }
+.color{
+    color: green;
+}
+.color2{
+    color: greenyellow;
+}
+.dropdown button {
+    width: 290px;
+}
+.buscar input{
+    width: 290px;
+}
+.carousel-inner img{
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+div.tres {
+    width: auto;
+    height:290px;
+    border: 2px solid;
+    border-radius: 10px;    
+}

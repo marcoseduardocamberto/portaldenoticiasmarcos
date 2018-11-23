@@ -30,7 +30,7 @@ body {
     border-bottom:3px solid green;
 }
 #img img{
-    width: 150px;
+    width: 160px;
 }
 
 #linha{
@@ -52,10 +52,4 @@ body {
     max-height: 200px;
     width: auto;
     height: auto;
-}
-div.tres {
-    width: auto;
-    height:290px;
-    border: 2px solid;
-    border-radius: 10px;    
 }

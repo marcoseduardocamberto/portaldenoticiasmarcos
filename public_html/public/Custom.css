@@ -36,12 +36,6 @@ body {
 #linha{
     margin: 0 auto;
 }
-.color{
-    color: green;
-}
-.color2{
-    color: greenyellow;
-}
 .dropdown button {
     width: 290px;
 }
@@ -52,4 +46,17 @@ body {
     max-height: 200px;
     width: auto;
     height: auto;
+}
+.ico{
+    font-size: 50px;
+}
+.ima img{
+    width: 200px;
+    height: 95px;
+}
+.text{
+    margin-right:10px;
+}
+.cid dropdown button{
+    height: 20px;
 }

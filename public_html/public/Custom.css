@@ -61,8 +61,19 @@ body {
     height: 20px;
 }
 .titu{
-    
+
 }
-.alta{
-    background-color: green;
+.back:before {
+    content: "";  
+    position: absolute;
+    background-image: linear-gradient(135deg,green,green);
+    width: 1090px;
+    height: 72%;
+    transform: skewY(5deg);   
+}
+.news{
+    color: white;
+}
+.news2{
+    color: #D8D8D8;
 }

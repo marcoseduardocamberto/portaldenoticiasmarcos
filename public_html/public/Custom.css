@@ -41,11 +41,11 @@ body {
 }
 .carousel-inner img{
     max-height: 200px;
-    width: auto;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 .ico{
-    font-size: 50px;
+    font-size: 40px;
 }
 .ima img{
     width: 200px;
@@ -65,6 +65,11 @@ body {
     height: 72%;
     transform: skewX(12deg);   
 }
+@media only screen and (max-width:360px){
+    .back:before {
+        width: 360px; 
+    } 
+}
 .news{
     color: white;
 }
@@ -72,7 +77,7 @@ body {
     color: #D8D8D8;
 }
 .roda{
-    width: 1090px;
+    width: 100%;
     height: 250px;
     background: #01DF01;
 }
@@ -81,5 +86,48 @@ body {
     border-left: 2px solid;
 }
 .acontecimentos2{
-    width: 1070px;
+    width: 100%;
+}
+.prop img{
+    width: 200px;
+}
+.propa img{
+    width: 343px;
+}
+.news img{
+    width: 500px;
+}
+@media only screen and (max-width: 360px){
+    .roda{
+        width: 100%;
+        height: 100%;
+        background: #01DF01;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:360px){
+    .ico{
+        font-size: 40px;
+        display: none;
+    }
+}
+@media only screen and (max-width:360px){
+    .previ{
+        display: none;
+    }
+}
+@media only screen and (max-width: 360px){
+    .propa img{
+        display: none;
+    }
+}
+@media only screen and (max-width: 360px){
+    .news2{
+        color: black;
+    }
+}
+@media only screen and (max-width: 360px){
+    .radape{
+        display: none;
+    }
 }
